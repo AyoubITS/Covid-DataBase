@@ -1,0 +1,120 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	max-width: 90%;
+	font-family: sans-serif;
+	color: #444444;
+	background-color: #fbfbfb;
+}
+
+h1, form {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	width: max-content;
+	margin-bottom: 50px;
+	text-align: center;
+	color: rgb(63, 179, 252);
+	line-height: 100%;
+}
+
+h2 {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+#titreInscription {
+	margin-top: 10%;
+	margin-bottom: 2%;
+	color: rgb(63, 179, 252);
+}
+
+.centrer {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#formulaire {
+	text-align: center;
+}
+
+input {
+	margin-bottom: 30px;
+}
+
+#map {
+	margin-top: 50px;
+}
+
+input[type=submit], #inscription-back-button {
+	margin-top: 20px;
+}
+
+#inscription-back-button {
+	text-align: center;
+}
+
+.titre {
+	margin-top: 1%;
+}
+
+.casMonde, .guerisMonde, .mortsMonde {
+	text-align:center;
+	font-size: xx-large;
+}
+
+.casMonde {
+	color:#FF0000;
+	margin-right: 20px;
+}
+
+.guerisMonde {
+	color:#00FF00;
+	margin-right: 20px;
+}
+
+.mortsMonde {
+	color:#696969;
+}
+
+.infoPays {
+	margin-right: 5%;
+	color:black;
+	text-align:center;
+	font-size: xx-large;
+}
+
+#tauxGueris, #tauxMort {
+	margin-right: 5%;
+	text-align:center;
+	font-size: xx-large;
+}
+
+#tauxGueris {
+	color: green;
+}
+
+#tauxMort {
+	color: red;
+}
+
+.ligne {
+	margin-top: 3%;
+}
+
+#map {
+	max-width: 60%;
+}
+
+#valider {
+	min-width: 180px;
+}
+
+#supprimer {
+	margin-top: 10%;
+}
