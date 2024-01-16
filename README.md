@@ -1,7 +1,7 @@
 Le client réseau pourra :
 
 -S’identifier avec id et mot de passe.
--Envoyer les données au serveur.
+ -Envoyer les données au serveur.
 
 Le serveur réseau :
 
